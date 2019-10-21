@@ -1196,11 +1196,11 @@ a4 { font-weight:bold;
 	<div id="rig">
 		<img src="orhere.png">
 	</div>
-
+<a href="https://seoojing.github.io/popo/">
 	<div id="turn">
 		<img src="turn.png">
 	</div>
-
+</a>
 	<div id="lefi">
 		<img src="here.png">
 	</div>
@@ -1246,6 +1246,9 @@ a4 { font-weight:bold;
 	<h5 id="poom10">귀퉁이에 다일이가 그린 듯한 낙서가 있다.</h5>
 	<h5 id="poom11">어떤 여자아이가 울고 있는 듯한 낙서같다.</h5>
 
+	<audio id="beep">
+		<source src="beep.mp3" type="audio/mpeg">
+	</audio>
 
 <div id="musi">
    <a5>
@@ -1690,7 +1693,8 @@ window.onmousemove = function(){
 
 
 
-
+	soun11.onclick = function(){
+		beep.play();}	
 
 	bobo.onclick = function(){
 		paper.play();
