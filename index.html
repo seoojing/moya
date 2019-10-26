@@ -1312,7 +1312,15 @@ a4 { font-weight:bold;
 	 	<h10 id="yaa2">예</h10>
 		<h10 id="noo2">아니오</h10>
 
-
+	<audio id="un">
+		<source src="un.m4a" type="audio/mpeg">
+	</audio>
+	<audio id="hm">
+		<source src="hm.m4a" type="audio/mpeg">
+	</audio>	
+		<audio id="ah">
+		<source src="ah.m4a" type="audio/mpeg">
+	</audio>	
 
 	<div id="hin1">
 		<img src="yogi.png">
@@ -1697,7 +1705,7 @@ window.onmousemove = function(){
 		beep.play();}	
 
 	bobo.onclick = function(){
-		paper.play();
+		paper.play();un.play();
 			face1.style.display = "inline";	
 			nn.style.display = "inline";
 			bx.style.display = "inline";
@@ -1721,7 +1729,7 @@ window.onmousemove = function(){
 				next16.style.display = "inline";
 			}
 	next16.onclick = function(){
-		but.play();				
+		un.play();				
 			jungg19.style.display = "none";
 			next16.style.display = "none";		
 				jungg20.style.display = "inline";
@@ -1806,9 +1814,9 @@ window.onmousemove = function(){
 			bx.style.display = "none";
 			}
 	jungju.onclick = function(){
-		but.play();
+		un.play();
 			jungju.style.display = "none";
-			jungju2.style.display = "inline";
+			
 			jungg.style.display = "inline";
 			face1.style.display = "inline";			
 			ooooo.style.display = "inline";
@@ -1842,7 +1850,7 @@ window.onmousemove = function(){
 			choose2.style.display = "inline";			
 			}
 	choose2.onclick = function(){
-		but.play();		
+		hm.play();		
 			jungg4.style.display = "none";
 			ch.style.display = "none";
 			choose2.style.display = "none";			
@@ -1850,7 +1858,7 @@ window.onmousemove = function(){
 			next3.style.display = "inline";			
 			}
 	ch.onclick = function(){
-		but.play();		
+		hm.play();		
 			jungg4.style.display = "none";
 			ch.style.display = "none";
 			choose2.style.display = "none";			
@@ -1858,7 +1866,7 @@ window.onmousemove = function(){
 			next9.style.display = "inline";			
 			}	
 	next9.onclick = function(){
-		but.play();				
+		ah.play();				
 			jungg12.style.display = "none";
 			next9.style.display = "none";		
 			jungg13.style.display = "inline";
@@ -1872,7 +1880,7 @@ window.onmousemove = function(){
 			next11.style.display = "inline";			
 			}
 	next11.onclick = function(){
-		but.play();		
+		hm.play();		
 		face1.style.display = "none";	
 		face2.style.display = "inline";					
 			jungg14.style.display = "none";
@@ -1898,7 +1906,7 @@ window.onmousemove = function(){
 			choose3.style.display = "inline";		
 			}	
 	ch2.onclick = function(){
-		but.play();		
+		un.play();		
 		face2.style.display = "none";	
 		face1.style.display = "inline";			
 			jungg7.style.display = "none";
@@ -1932,7 +1940,7 @@ window.onmousemove = function(){
 			next7.style.display = "inline";		
 			}
 	next7.onclick = function(){
-		but.play();				
+		hm.play();				
 			jungg10.style.display = "none";
 			next7.style.display = "none";		
 			jungg11.style.display = "inline";
@@ -1946,7 +1954,8 @@ window.onmousemove = function(){
 				bx.style.display = "none";
 			face1.style.display = "none";
 				nn.style.display = "none";
-			rig.style.display = "inline";							
+			rig.style.display = "inline";	
+			jungju2.style.display = "inline";						
 			}
 	next12.onclick = function(){
 		but.play();				
@@ -1955,7 +1964,8 @@ window.onmousemove = function(){
 				bx.style.display = "none";
 			face2.style.display = "none";
 				nn.style.display = "none";
-		rig.style.display = "inline";									
+		rig.style.display = "inline";	
+		jungju2.style.display = "inline";								
 			}			
 	oo.onclick = function(){
 		but.play();
